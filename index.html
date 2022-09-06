@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Our Cause</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./main.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+
+    <script>
+        let ID = Math.random().toString(36).substr(2, 20);
+        let code = Math.random().toString(36).substr(2, 20);
+        let pCode = Math.random().toString(36).substr(2, 20);
+
+        let fname = ID
+        let lname = code
+        let productID = pCode
+        let initAmount = 10
+    </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+        <div class="container-fluid">
+            <a class="navbar-brand px-5 " href="https://tutorialpointtech.github.io/home">
+                <img src="./logo.png" alt="logo" width="90">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="##navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link px-3 border-end border-light "
+                            href="https://tutorialpointtech.github.io/home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="https://tutorialpointtech.github.io/components">Components</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="https://tutorialpointtech.github.io/projects">Projects</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a target="_blank" class="nav-link px-3"
+                            href="https://www.youtube.com/channel/UC5zgrYkTItC0MpgYmTQ-5og">Tutorials</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+
+        <div class="row p-2">
+            <div class="col-6">
+                <h2 class="text-center">Help us do more </h2>
+                <p class="suporttxt">
+                    Tutorial Point is a highly efficient coding & education platform.
+                    When you donate to Tutorial Point, you help people learn new skills and provide for their families.
+                    You also help us create new resources for you to use to expand your own technology skills.
+                    Your donation will help learning to people around the world.
+                </p>
+            </div>
+            <div class="col-6">
+                <img src="./support.jpg" class="img-fluid" alt="support us">
+
+            </div>
+
+
+        </div>
+
+        <section class="  border-top mt-3 p-3  ">
+            <div class="accordion" id="payment">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Account Detail
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#payment">
+                        <div class="accordion-body">
+                            <strong>IBAN Number: </strong>
+                            <p>PK98SONE0001602050720452</p>
+                            <strong>Bank Swift Code: </strong>
+                            <p>SONEPKKAISD</p>
+                            <small>Write below Payment reason so that we will come to know you have send money for our
+                                support</small>
+                            <h6> Payment for Freelance and IT Support</h6>
+                            <p><strong>Email:</strong> tutorialpointtech@gmail.com </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <footer class=" text-center p-1  col-12 bottom-end border-top mt-2 bg-secondary text-light p-5">
+
+
+        <p>Copyright © Tutorial Point,2022</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
